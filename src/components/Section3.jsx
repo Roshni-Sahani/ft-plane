@@ -7,6 +7,7 @@ import cardimg from '../assets/images/png/cardsimg.png'
 import card2 from '../assets/images/png/card2.png'
 import card3 from '../assets/images/png/card3.png'
 import card4 from '../assets/images/png/card4.png'
+import line2 from '../assets/images/png/line2.png'
 import cardlayer from '../assets/images/png/cardlayer.png'
 const Section3 = () => {
   const first = React.useRef(null);
@@ -38,7 +39,7 @@ const Section3 = () => {
     ],
   };
   return (
-    <div className="bg-[#010223] overflow-hidden">
+    <div className="bg-[#010223] overflow-hidden relative">
       <div className=" max-w-[1040px] mx-auto px-3 py-[50px] lg:pb-20">
         <div className=" flex flex-wrap flex-row -mx-3">
           <div
@@ -150,6 +151,7 @@ const Section3 = () => {
           </div>
         </div>
       </div>
+      <img src={line2} alt="2" className="absolut e " />
     </div>
   );
 };

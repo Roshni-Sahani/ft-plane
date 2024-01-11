@@ -230,65 +230,6 @@ const Section5 = () => {
                 {cards}
               </Slider>
             </div>
-            {/* <div
-              className="md:w-1/2 w-full px-3 relative flex flex-col justify-center"
-              data-aos="zoom-in-up"
-              data-aos-duration="3000"
-            >
-              <div className="absolute top-[100%] left-[30%]">
-                <div className="flex gap-4 mt-8">
-                  <div>
-                    <button
-                      className="border-2 hover:bg-[#313EF7] group transition-all duration-500 bg-[#313EF71A] rounded-full w-[50px] h-[50px] flex items-center justify-center"
-                      onClick={() => first?.current?.slickPrev()}
-                    >
-                      <span>
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="13"
-                          height="22"
-                          viewBox="0 0 13 22"
-                          fill="none"
-                        >
-                          <path
-                            d="M11.9171 1.00006L1.91711 11.0001L11.9171 21.0001"
-                            stroke="#010223"
-                            className="group-hover:stroke-white"
-                            stroke-width="2"
-                          />
-                        </svg>
-                      </span>
-                    </button>
-                  </div>
-                  <div>
-                    <button
-                      className="border-2 bg-[#313EF71A] hover:bg-[#313EF7] group transition-all duration-500 rounded-full w-[50px] h-[50px] flex items-center justify-center "
-                      onClick={() => first?.current?.slickNext()}
-                    >
-                      <span>
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="13"
-                          height="22"
-                          viewBox="0 0 13 22"
-                          fill="none"
-                        >
-                          <path
-                            d="M0.916748 21L10.9167 11L0.91675 0.999999"
-                            stroke="#010223"
-                            className="group-hover:stroke-white"
-                            stroke-width="2"
-                          />
-                        </svg>
-                      </span>
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <Slider ref={first} {...settings}>
-                {cards}
-              </Slider>
-            </div> */}
           </div>
         </div>
       </div>

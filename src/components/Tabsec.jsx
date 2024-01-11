@@ -8,7 +8,7 @@ function Tabsec() {
   };
   return (
     <div className="lg:py-24 pb-10">
-      <div className="max-w-[1140px] px-3 mx-auto -translate-y-56 pt-5 -mb-52">
+      <div className="max-w-[1140px] px-3 mx-auto -translate-y-56 min-[1135px]:pt-28 xl:pt-5 md:pt-20 pt-5 -mb-52">
         <div className="bg-[#fff] rounded-[20px_20px_0px_0px] flex max-w-lg h-14 gap- 2 0 border-b border-[#F3F4F6] ">
           <div
             onClick={() => handleTab1("tab1")}
