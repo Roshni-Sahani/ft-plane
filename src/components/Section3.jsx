@@ -151,7 +151,7 @@ const Section3 = () => {
           </div>
         </div>
       </div>
-      <img src={line2} alt="2" className="absolut e " />
+
     </div>
   );
 };
